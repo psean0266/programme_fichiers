@@ -8,7 +8,17 @@ namespace programme_fichiers
     {
         static void Main(string[] args)
         {
+            //   var path = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Pour plcer documents
+            //   var path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);  // pour placer dans bureau
+            var path = "out";
+
+            Directory.CreateDirectory(path);
+
             string filename = "nomFichier.txt";
+
+            string pathAndFile = Path.Combine(path, filename);  
+
+            Console.WriteLine("FICHIER: "+pathAndFile);
             //File.WriteAllText("nomFichier.txt", "Voici le contenue que j'ai écrit dans le fichier texte ");
             //File.AppendAllText(filename, " Je rajoute ce texte");
 
@@ -19,22 +29,19 @@ namespace programme_fichiers
                 "Martin"
             };
 
-            File.WriteAllLines(filename, noms);
+            File.WriteAllLines(pathAndFile, noms);
 
 
             try
             {
-                //int a = 1;
-                //a = a / 0;
                 //     string resultat = File.ReadAllText("nomFichier.txt");
 
-                var lignes = File.ReadAllLines("nomFichier.txt");
+                var lignes = File.ReadAllLines(pathAndFile);
 
                 foreach (var ligne in lignes) {
 
                     Console.WriteLine(ligne);
                 }
-
                 
             }
             catch (FileNotFoundException ex)
