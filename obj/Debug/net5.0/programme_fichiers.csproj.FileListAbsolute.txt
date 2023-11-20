@@ -1,0 +1,16 @@
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.exe
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.deps.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.runtimeconfig.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.runtimeconfig.dev.json
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\bin\Debug\net5.0\programme_fichiers.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.csproj.AssemblyReference.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.AssemblyInfoInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.AssemblyInfo.cs
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.csproj.CoreCompileInputs.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\refint\programme_fichiers.dll
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.pdb
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\programme_fichiers.genruntimeconfig.cache
+C:\Users\AbdoulayePangnonKOUL\source\repos\Jonathan\programme_fichiers\programme_fichiers\obj\Debug\net5.0\ref\programme_fichiers.dll
