@@ -12,11 +12,32 @@ namespace programme_fichiers
             //   var path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);  // pour placer dans bureau
             var path = "out";
 
-            Directory.CreateDirectory(path);
+            if(!Directory.Exists(path)) {
+
+                Directory.CreateDirectory(path);
+            }
+
+            
 
             string filename = "nomFichier.txt";
+            string filename2 = "nomFichier2.txt";
 
-            string pathAndFile = Path.Combine(path, filename);  
+            string pathAndFile = Path.Combine(path, filename);
+            string pathAndFile2 = Path.Combine(path, filename2);
+
+
+
+
+
+            if (File.Exists(pathAndFile))
+            {
+                Console.WriteLine("Le fichier existe déjà, on va écraser son contenu");
+            }
+
+            else
+            {
+                Console.WriteLine("Le fichier n'existe pas, On va le créer");
+            }
 
             Console.WriteLine("FICHIER: "+pathAndFile);
             //File.WriteAllText("nomFichier.txt", "Voici le contenue que j'ai écrit dans le fichier texte ");
@@ -53,6 +74,11 @@ namespace programme_fichiers
             {
                 Console.WriteLine("UNE ERREUR inconnu est arrivé");
             }
+
+
+           // File.Copy(pathAndFile, pathAndFile2);  
+          // File.Delete(pathAndFile2);    
+           File.Move(pathAndFile2, pathAndFile2); // renomer le fichier
 
         }
     }
